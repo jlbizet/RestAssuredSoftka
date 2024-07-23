@@ -10,40 +10,25 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import net.minidev.json.JSONArray;
+
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 import softka.restassured.listener.RestAssuredListener;
 import softka.restassured.utils.BaseTest;
 
+
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.not;
 
+@Feature("Validar la funcionalidad obtener usuarios")
+public class getUserEndpointTest extends BaseTest {
 
-@Feature("Validar la funcionalidad eliminar")
-public class deleteUserEndpointTest extends BaseTest {
     String url = "/users";
 
-    @Test(description = "Eliminar un usuario del Sistema")
-    @Description("Eliminar un usuario del Sistema")
+    @Test(description = "Obtener todos los usuarios")
+    @Description("Obtener todos los usuarios")
     @Severity(SeverityLevel.CRITICAL)
-    public void deleteUser() {
-        RestAssured.given()
-                .filter(new RestAssuredListener())
-                .filter(new AllureRestAssured())
-                .contentType(ContentType.JSON)
-                .when()
-                .delete(url +"/{id}", 2)
-                .then()
-                .assertThat()
-                .statusCode(204);
-    }
+    public void getAllUsers() {
 
-    @Test(description = "Eliminar un usuario del Sistema y verificar que se haya eliminado")
-    @Description("Eliminar un usuario del Sistema y verificar que se haya eliminado")
-    @Severity(SeverityLevel.CRITICAL)
-    public void deleteUserAndVerify() {
-        //Listar todos los usuarios y obtener el id a eliminar
         Response response = given()
                 .filter(new RestAssuredListener())
                 .filter(new AllureRestAssured())
@@ -54,21 +39,28 @@ public class deleteUserEndpointTest extends BaseTest {
                 .assertThat()
                 .statusCode(200)
                 .body("data", Matchers.notNullValue());
-        JSONArray data = JsonPath.read(response.body().asString(), "$.data");
-        int id= JsonPath.read(response.body().asString(), "$.data[0].id");
+    }
 
-        // Eliminar usuario
-        RestAssured.given()
+    @Test(description = "Obtener usuario por id")
+    @Description("Obtener usaurio por id")
+    @Severity(SeverityLevel.CRITICAL)
+    public void getUsersByID() {
+        Response response = given()
                 .filter(new RestAssuredListener())
                 .filter(new AllureRestAssured())
                 .contentType(ContentType.JSON)
                 .when()
-                .delete(url +"/{id}", id)
-                .then()
+                .get(url);
+        response.then()
                 .assertThat()
-                .statusCode(204);
+                .statusCode(200)
+                .body("data", Matchers.notNullValue());
+        int id= JsonPath.read(response.body().asString(), "$.data[0].id");
+        String email = JsonPath.read(response.body().asString(), "$.data[0].email");
+        String first_name = JsonPath.read(response.body().asString(), "$.data[0].first_name");
+        String last_name = JsonPath.read(response.body().asString(), "$.data[0].last_name");
 
-            // Verificar que el usuario este eliminado
+        // get by id
         RestAssured.given()
                 .filter(new RestAssuredListener())
                 .filter(new AllureRestAssured())
@@ -78,6 +70,29 @@ public class deleteUserEndpointTest extends BaseTest {
                 .then()
                 .assertThat()
                 .statusCode(200)
-                .body("data.id", not(hasItem(id)));;
+                .body("data.id", Matchers.equalTo(id))
+                .body("data.email", Matchers.equalTo(email))
+                .body("data.first_name", Matchers.equalTo(first_name))
+                .body("data.last_name", Matchers.equalTo(last_name));
+
     }
-}
+
+
+    @Test(description = "Validar que un usuario no exista en el sistema")
+    @Description("Validar que un usuario no exista en el sistema")
+    @Severity(SeverityLevel.CRITICAL)
+    public void getUserIdNotExits(){
+        RestAssured.given()
+                .filter(new RestAssuredListener())
+                .filter(new AllureRestAssured())
+                .contentType(ContentType.JSON)
+                .when()
+                .get(url +"/{id}", 50)
+                .then()
+                .assertThat()
+                .statusCode(404)
+                .body(Matchers.equalTo("{}"));
+    }
+
+    }
+

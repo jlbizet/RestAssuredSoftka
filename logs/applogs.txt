@@ -1,0 +1,2368 @@
+2024-07-22T12:27:06,340 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T12:27:06,381 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T12:27:09,067 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T12:27:09,196 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T12:27:09,849 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T12:27:09,888 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:30:24,957 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:31:02,875 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:31:02,915 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:31:04,764 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:31:05,913 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:31:05,955 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <204>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at softka.restassured.tests.deleteUserEndpointTest.deleteUser(deleteUserEndpointTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T13:31:05,958 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:34:32,070 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:34:32,102 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:34:33,824 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:34:34,991 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:34:35,011 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:36:22,312 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:36:22,346 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:36:23,977 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:36:25,167 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:36:25,286 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:36:25,329 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at softka.restassured.tests.deleteUserEndpointTest.deleteUser(deleteUserEndpointTest.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T13:36:25,333 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:39:20,015 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:39:20,056 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:39:21,676 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:39:22,897 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:39:23,005 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:39:23,022 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:48:06,998 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:48:07,033 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:48:08,821 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:48:09,980 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:48:10,092 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:48:10,196 [main] INFO  (BaseTest.java:27) - java.lang.IllegalArgumentException: The parameter "id" was used but not defined. Define parameters using the JsonPath.params(...) function
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:286)
+	at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:50)
+	at io.restassured.internal.path.json.JSONAssertion$getAsJsonObject.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)
+	at io.restassured.internal.assertion.BodyMatcher.validate(BodyMatcher.java:102)
+	at io.restassured.internal.assertion.BodyMatcherGroup.lambda$validate$0(BodyMatcherGroup.java:30)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.restassured.internal.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.java:30)
+	at io.restassured.internal.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at softka.restassured.tests.deleteUserEndpointTest.deleteUser(deleteUserEndpointTest.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: groovy.lang.MissingPropertyException: No such property: id for class: java.util.LinkedHashMap$Entry
+Possible solutions: key
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:67)
+	at org.codehaus.groovy.vmplugin.v8.IndyGuardsFiltersAndSignatures.unwrap(IndyGuardsFiltersAndSignatures.java:161)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script1$_run_closure1.doCall(Script1.groovy:1)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.BooleanReturningMethodInvoker.invoke(BooleanReturningMethodInvoker.java:49)
+	at org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper.call(BooleanClosureWrapper.java:52)
+	at org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper.callForMap(BooleanClosureWrapper.java:64)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.findAll(DefaultGroovyMethods.java:4840)
+	at org.codehaus.groovy.runtime.dgm$249.doMethodInvoke(Unknown Source)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script1.run(Script1.groovy:1)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:460)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:495)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:469)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap.invoke(PogoMetaMethodSite.java:186)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:75)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:84)
+	at io.restassured.internal.path.json.JSONAssertion.this$2$eval(JSONAssertion.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)
+	... 55 more
+
+2024-07-22T13:48:10,201 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T13:51:56,319 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T13:51:56,353 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T13:51:58,087 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:51:59,233 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T13:51:59,377 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T13:51:59,454 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+JSON path data[0].id doesn't match.
+Expected: an empty collection
+  Actual: null
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at softka.restassured.tests.deleteUserEndpointTest.deleteUser(deleteUserEndpointTest.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T13:51:59,457 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:17:01,505 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:17:01,535 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:17:03,919 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:17:05,003 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T16:17:05,108 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:17:05,151 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:19:49,601 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:19:49,633 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:19:51,240 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:19:51,708 [main] INFO  (BaseTest.java:27) - java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+	at io.restassured.path.json.JsonPath.getList(JsonPath.java:375)
+	at softka.restassured.tests.deleteUserEndpointTest.delete(deleteUserEndpointTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:19:51,710 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:24:48,753 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:24:48,794 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:24:50,461 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:24:50,529 [main] INFO  (BaseTest.java:27) - java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class net.minidev.json.JSONArray (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; net.minidev.json.JSONArray is in unnamed module of loader 'app')
+	at softka.restassured.tests.deleteUserEndpointTest.delete(deleteUserEndpointTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:24:50,532 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:26:10,026 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:26:10,059 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:26:11,757 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:26:11,828 [main] INFO  (BaseTest.java:27) - java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class net.minidev.json.JSONArray (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; net.minidev.json.JSONArray is in unnamed module of loader 'app')
+	at softka.restassured.tests.deleteUserEndpointTest.delete(deleteUserEndpointTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:26:11,831 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:30:15,134 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:30:15,167 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:30:32,059 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:35:24,443 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:35:24,476 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:35:26,224 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:35:27,306 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T16:35:27,444 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:35:28,033 [main] INFO  (BaseTest.java:27) - io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getList(JsonPath.java:375)
+	at softka.restassured.tests.deleteUserEndpointTest.deleteUser(deleteUserEndpointTest.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse$0.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 30 more
+
+2024-07-22T16:35:28,036 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:40:40,759 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:40:40,789 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:40:42,393 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:40:43,626 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>DELETE
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => 
+2024-07-22T16:40:43,759 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T16:40:43,782 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:51:01,575 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:51:01,611 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:51:03,911 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:51:03,924 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:51:51,461 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:51:51,487 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:51:53,166 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:51:53,179 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:52:19,666 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:52:19,693 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:52:21,433 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:52:21,446 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:55:08,606 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:55:08,638 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:55:10,737 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:55:10,780 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: an empty collection
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:55:10,783 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:56:30,250 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:56:30,282 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:56:31,983 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:56:32,071 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: null
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:56:32,075 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:57:11,852 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:57:11,879 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:57:13,482 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:57:13,540 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: an empty array
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:57:13,544 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T16:57:49,092 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T16:57:49,120 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T16:57:50,706 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T16:57:50,774 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: a map with size <0>
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T16:57:50,778 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T17:00:08,308 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T17:00:08,343 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T17:00:10,465 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T17:00:10,512 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: a blank string
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T17:00:10,514 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T17:01:08,133 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T17:01:08,162 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T17:01:09,557 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T17:01:09,611 [main] INFO  (BaseTest.java:27) - java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: a CharSequence with length <0>
+  Actual: {}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at softka.restassured.tests.getUserEndpointTest.getUserIdNotExits(getUserEndpointTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2024-07-22T17:01:09,614 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T17:03:11,852 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T17:03:11,892 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T17:03:13,961 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T17:03:13,993 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T17:06:44,696 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T17:06:44,723 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T17:06:46,941 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>PUT
+ URI => https://reqres.in/api/users/50
+ Request body => {"id":1,"email":"new.bluth@reqres.in","first_name":"GeorgeUpdated","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"}
+ Response body => {
+    "id": 1,
+    "email": "new.bluth@reqres.in",
+    "first_name": "GeorgeUpdated",
+    "last_name": "Bluth",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "updatedAt": "2024-07-22T20:06:47.496Z"
+}
+2024-07-22T17:06:46,986 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T17:23:58,098 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+2024-07-22T17:23:58,132 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T17:23:59,768 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T17:24:00,417 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T17:24:01,066 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>PUT
+ URI => https://reqres.in/api/users/1
+ Request body => {"email":"new.bluth@reqres.in","first_name":"GeorgeUpdated","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"}
+ Response body => {
+    "email": "new.bluth@reqres.in",
+    "first_name": "GeorgeUpdated",
+    "last_name": "Bluth",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "updatedAt": "2024-07-22T20:24:01.703Z"
+}
+2024-07-22T17:24:01,086 [main] INFO  (BaseTest.java:27) - com.jayway.jsonpath.PathNotFoundException: No results for path: $['id']
+
+2024-07-22T17:24:01,089 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T22:39:38,495 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\josel\Downloads\Git\RestAssuredSoftka\suites\restassuredapitest.xml
+
+2024-07-22T22:39:38,527 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T22:39:40,208 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T22:39:40,781 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T22:39:41,444 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>PUT
+ URI => https://reqres.in/api/users/1
+ Request body => {"id":1,"email":"new.bluth@reqres.in","first_name":"GeorgeUpdated","last_name":"Bluth1","avatar":"https://reqres.in/img/faces/1-image.jpg"}
+ Response body => {
+    "id": 1,
+    "email": "new.bluth@reqres.in",
+    "first_name": "GeorgeUpdated",
+    "last_name": "Bluth1",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "updatedAt": "2024-07-23T01:39:42.280Z"
+}
+2024-07-22T22:39:41,611 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T22:39:42,235 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T22:39:42,344 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T22:39:42,423 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T22:39:42,470 [main] INFO  (BaseTest.java:44) - Test execution finished...
+2024-07-22T23:39:25,345 [main] INFO  (BaseTest.java:39) - Test execution started...
+2024-07-22T23:39:28,245 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T23:39:29,335 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T23:39:30,220 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>PUT
+ URI => https://reqres.in/api/users/1
+ Request body => {"id":1,"email":"new.bluth@reqres.in","first_name":"GeorgeUpdated","last_name":"Bluth1","avatar":"https://reqres.in/img/faces/1-image.jpg"}
+ Response body => {
+    "id": 1,
+    "email": "new.bluth@reqres.in",
+    "first_name": "GeorgeUpdated",
+    "last_name": "Bluth1",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "updatedAt": "2024-07-23T02:39:31.027Z"
+}
+2024-07-22T23:39:30,521 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T23:39:31,447 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/50
+ Request body => null
+ Response body => {
+    
+}
+2024-07-22T23:39:31,722 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users
+ Request body => null
+ Response body => {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T23:39:31,937 [main] INFO  (RestAssuredListener.java:21) - 
+ Method =>GET
+ URI => https://reqres.in/api/users/1
+ Request body => null
+ Response body => {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2024-07-22T23:39:32,006 [main] INFO  (BaseTest.java:44) - Test execution finished...
